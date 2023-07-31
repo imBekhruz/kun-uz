@@ -1,0 +1,14 @@
+### Create Profile
+POST localhost:8080/profile
+Content-Type: application/json
+
+{
+  "name": "Michael",
+  "surname": "Jackson",
+  "login" : "mike",
+  "password": "7777"
+
+}
+
+### GET LIST
+GET localhost:8080/profile
